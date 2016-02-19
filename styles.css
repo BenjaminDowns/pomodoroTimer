@@ -32,7 +32,7 @@ body {
 }
 
 .toggler {
-	margin-bottom: -90px;
+	margin-bottom: -112px;
 }
 
 #hourglass {
@@ -83,14 +83,15 @@ input[type=range] {
     height: 310px;
     margin: 6.8px 0;
     rotate: 180deg;
-    /*box-shadow: 0.5px 0.5px 1px #969600, 0px 0px 0.5px #afb000;
-  background: #6cc8de;
+    /*box-shadow: 0.5px 0.5px 1px #969600, 0px 0px 0.5px #afb000;*/
+  /*background: #6cc8de;
   border-radius: 1.3px;
   border: 0.2px solid #010101;*/
 }
 
 input[type=range]::-webkit-slider-thumb {
     webkit-appearance: none !important;
+    color: red;
     background: red;
     height: 200px;
     width: 10px;

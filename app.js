@@ -23,6 +23,7 @@ angular.module('myApp', []).controller('MainCtrl', ['$scope', '$interval', funct
             if (time <= 0) {
               $scope.stopTimer()
               $scope.toggleWork()
+              return
             } 
             time--
             time % 60 === 0 ? $scope.seconds = "00" : $scope.seconds = time % 60
