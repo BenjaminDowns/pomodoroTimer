@@ -1,5 +1,5 @@
 # pomodoroTimer
-A pomodoro timer to play around with flexbox.
+A pomodoro timer to play around with flexbox. Uses some html5 things (range slider), css3 things (flexbox), and angular.
 
 Up and running here: http://codepen.io/BenjaminDowns/full/MKdONK/
 
